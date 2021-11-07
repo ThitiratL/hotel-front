@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: p;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="th.ac.ku.hotel.controller.HotelHuaHinController">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #CC66FF;">
+         <children>
+            <Button fx:id="backBtn" layoutX="728.0" layoutY="19.0" mnemonicParsing="false" onAction="#ActionOnBackBtn" prefHeight="63.0" prefWidth="148.0" style="-fx-background-color: #990033;" text="Back" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="33.0" layoutY="8.0" prefHeight="85.0" prefWidth="388.0" text="HOTEL" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Bold" size="64.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <ImageView fitHeight="166.0" fitWidth="279.0" layoutX="155.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/HotelHuaHin01.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="166.0" fitWidth="279.0" layoutX="154.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/HotelHuaHin02.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="166.0" fitWidth="279.0" layoutX="155.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/HotelHuaHin03.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="451.0" layoutY="145.0" prefHeight="42.0" prefWidth="410.0" text="Anantara Hua Hin Resort">
+         <font>
+            <Font name="Corbel Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="selectHuaHinBtn1" layoutX="596.0" layoutY="206.0" mnemonicParsing="false" onAction="#ActionOnSelectHuaHinBtn1" prefHeight="56.0" prefWidth="121.0" style="-fx-background-color: #CC66FF;" text="Select" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="491.0" layoutY="343.0" prefHeight="42.0" prefWidth="331.0" text="Cape Nidhra Hotel">
+         <font>
+            <Font name="Corbel Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="selectHuaHinBtn2" layoutX="596.0" layoutY="392.0" mnemonicParsing="false" onAction="#ActionOnSelectHuaHinBtn2" prefHeight="56.0" prefWidth="121.0" style="-fx-background-color: #CC66FF;" text="Select" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="425.0" layoutY="532.0" prefHeight="42.0" prefWidth="462.0" text="The Sea-Cret Garden Hua Hin">
+         <font>
+            <Font name="Corbel Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="selectHuaHinBtn3" layoutX="596.0" layoutY="590.0" mnemonicParsing="false" onAction="#ActionOnSelectHuaHinBtn3" prefHeight="56.0" prefWidth="121.0" style="-fx-background-color: #CC66FF;" text="Select" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
