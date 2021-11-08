@@ -30,7 +30,7 @@ public class HomeController {
     Spinner guest;
 
     @FXML
-    Button searchBtn, checkBookingBtn;
+    Button searchBtn, checkBookingBtn, paymentBtn, adminBtn;
 
     ObservableList<String> placesList = FXCollections.observableArrayList("Pattaya", "Hua Hin");
     ArrayList<Hotel> hotels = new ArrayList<>();
@@ -192,6 +192,20 @@ public class HomeController {
         checkBookingBtn = (Button) event.getSource();
         Stage stage = (Stage) checkBookingBtn.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/templates/checkBooking.fxml"));
+        stage.setScene(new Scene(loader.load()));
+    }
+
+    @FXML public void ActionAdminBtn(ActionEvent event) throws IOException {
+        adminBtn = (Button) event.getSource();
+        Stage stage = (Stage) adminBtn.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/templates/AdminLogin.fxml"));
+        stage.setScene(new Scene(loader.load()));
+    }
+
+    @FXML public void ActionOnPaymentBtn(ActionEvent event)throws IOException{
+        paymentBtn = (Button) event.getSource();
+        Stage stage = (Stage) paymentBtn.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/templates/Payment.fxml"));
         stage.setScene(new Scene(loader.load()));
     }
 }

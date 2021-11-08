@@ -23,6 +23,16 @@
                   <Font name="Corbel Bold" size="24.0" />
                </font>
             </Button>
+            <Button fx:id="paymentBtn" layoutX="526.0" layoutY="19.0" mnemonicParsing="false" onAction="#ActionOnPaymentBtn" prefHeight="63.0" prefWidth="148.0" style="-fx-background-color: #9932cc;" text="Payment" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="adminBtn" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#ActionAdminBtn" prefHeight="63.0" prefWidth="109.0" style="-fx-background-color: white;" text="Admin" textAlignment="CENTER" textFill="DARKORCHID">
+               <font>
+                  <Font name="Corbel Bold" size="24.0" />
+               </font>
+            </Button>
          </children></Pane>
       <DatePicker fx:id="checkIn" layoutX="232.0" layoutY="332.0" prefHeight="36.0" prefWidth="173.0" />
       <DatePicker fx:id="checkOut" layoutX="495.0" layoutY="332.0" prefHeight="36.0" prefWidth="173.0" />
